@@ -1,4 +1,4 @@
-# dm-portfolio ![Static Badge](https://img.shields.io/badge/progress%3A-10%25-orange?style=plastic)
+# dm-portfolio ![](https://geps.dev/progress/50?barColor=4472C4)
 My personal website portfolio!
 
 All code is made by me, a still-learning programmer.
