@@ -3,6 +3,8 @@ My personal website portfolio!
 
 All code is made by me, a less-than-average programmer.
 
+[Web Portfolio Link](https://dm-portfolio.github.io/)
+
 > [!NOTE]
 > I'm kind of stupid, and I didn't really pay well attention in some of my CS classes, so I'm still figuring out some things. I've seen some things about people attempting to keep up domains? so I'm not sure how long this website will work. Here's to hoping! 🤞
 
