@@ -7,7 +7,20 @@
     </head>
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="fg-tab">
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/spin.gif?raw=true" alt="this is a test description">
+            <script>
+                function playAudio() {
+                    var audio = document.getElementById("audioPlayer");
+                    audio.play();
+                }
+            </script>
+
+            <!-- Image acting as a button -->
+            <img src="your-image.png" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudio()">
+            
+            <!-- Audio element (hidden) -->
+            <audio id="audioPlayer">
+                <source src="https://www.myinstants.com/en/instant/skull-trumpet/?utm_source=copy&utm_medium=share" type="audio/mpeg">
+            </audio>
             <div id="twFont">This is a test message. If you can see this, I'm an awesome coder. and I'm handsome. and totally buff. and 6'5"</div>
             <br>
             <div id="twFont">also hi mom :)</div>
