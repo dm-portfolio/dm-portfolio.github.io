@@ -8,3 +8,15 @@ body {
   border-radius: 8px; /* Optional: for rounded corners */
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* The shadow property */
 }
+#typewriterFont {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  letter-spacing: 2px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: lowercase;
+}
