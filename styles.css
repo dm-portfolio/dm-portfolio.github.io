@@ -1,3 +1,9 @@
 body {
   background-color: lightgrey;
 }
+fg {
+  width: 720;
+  height: 720;
+  position: fixed;
+  background-color: #C0C0C0;
+}
