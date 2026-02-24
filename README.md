@@ -1,2 +1,2 @@
-# dillanmprogramming.github.io
+# my portfolio website
 My personal website portfolio
