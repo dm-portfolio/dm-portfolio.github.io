@@ -85,7 +85,7 @@ body {
   background: #ffffff;
 }
 .tab-content {
-  display: none;
+  display: 2px outset;
   padding: 20px;
 }
 .tab-content.active {
