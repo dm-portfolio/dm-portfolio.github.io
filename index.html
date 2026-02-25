@@ -8,25 +8,25 @@
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="fg-tab">
             <script>
-                function playAudiotrumpet() {
+                function playAudio1() {
                     var audio = document.getElementById("audioPlayer1");
                     audio.play();
                 }
-                function playAudioapirateisfree() {
+                function playAudio2() {
                     var audio = document.getElementById("audioPlayer2");
                     audio.play();
                 }
             </script>
 
             <!-- Image acting as a button -->
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudiotrumpet()">
+            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudio1()">
             
             <!-- Audio element (hidden) -->
             <audio id="audioPlayer1">
                 <source src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/audio/trumpet.mp3?raw=true" type="audio/mpeg">
             </audio>
             <!-- Image acting as a button -->
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudioapirateisfree()">
+            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudio2()">
             
             <!-- Audio element (hidden) -->
             <audio id="audioPlayer2">
