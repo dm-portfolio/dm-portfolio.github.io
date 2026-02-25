@@ -45,6 +45,8 @@ body {
   }
 }
 .fg-tab {
+  display: grid;
+  place-items: center;
   width: 720px;
   padding: 20px;
   background-color: #C0C0C0; /* Foreground color */
