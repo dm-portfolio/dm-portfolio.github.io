@@ -3,14 +3,10 @@ body {
 }
 .fg-tab {
   width: 720px;
-  height: 100px;
   padding: 20px;
   background-color: #C0C0C0; /* Foreground color */
   border-radius: 8px; /* Optional: for rounded corners */
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* The shadow property */
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 #twFont {
   font-family: "Courier New", Courier, monospace;
