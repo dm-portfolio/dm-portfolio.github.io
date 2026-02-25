@@ -79,13 +79,11 @@ body {
 .tab-button {
   padding: 10px;
   cursor: pointer;
-  border: 2px inset #ababab;
 }
 .tab-button.active {
-  background: #ffffff;
+  background: #f1f1f1;
 }
 .tab-content {
-  display: 2px outset;
   padding: 20px;
 }
 .tab-content.active {
