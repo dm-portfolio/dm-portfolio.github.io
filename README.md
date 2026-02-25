@@ -10,4 +10,11 @@ All code is made by me, a less-than-average programmer.
 
 ## 📝 Documentation
 
-` 2.24.26 - Website works! Couldn't find a way to host a website for the longest time, so figuring out about github pages fulfilled that lifelong dream of mine to make my own working website. Working on base design so far, more to come in the future. LOTS of ideas ahead. `
+**2.24.26** **-** Website works! Couldn't find a way to host a website for the longest time, so figuring out about github pages fulfilled that lifelong dream of mine to make my own working website. Working on base design so far, more to come in the future. LOTS of ideas ahead.
+
+## 📜 Versions
+
+#### v0.0.0 -
+base website made.
+#### v0.0.1 -
+added spin.gif to repository and website
