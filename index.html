@@ -24,7 +24,7 @@
             <div id="home" class="tab-content active">
                 <txt id="twHeader">About Me:</txt>
                 <br>
-                <txt id="twFont">Hobby Programmer studying Computer Science</txt><br>
+                <txt id="twFont">Information Technology Specialist studying Computer Science</txt><br>
                 <br>
                 <txt id="twFont">I usually switch between a lot of hobbies, but I like to stick with a few:</txt><br>
                 <br>
@@ -47,7 +47,7 @@
                 
             <div id="work" class="tab-content">
                 <div class="notice-outset">
-                    <txt id="twSmall">For work offers and inquiries, please contact me through my&ensp;</txt><txt id="twLink" onclick="openTab(event, 'contact')">work email</txt><txt id="twSmall">.</txt>
+                    <txt id="twSmall">For work offers and inquiries, please contact me through my&ensp;</txt><txt id="twLink" onclick="openLink('https://github.com/')">work email</txt><txt id="twSmall">.</txt>
                 </div>
                 <br>
                 <txt id="twHeader">What I know:</txt><br>
@@ -57,6 +57,11 @@
                     <div class="outset" id="twFont">Python</div>
                     <div class="outset" id="twFont">JS</div>
                     <div class="outset" id="twFont">TS</div>
+                </div><br>
+                <br>
+                <txt id="twHeader">Experience:</txt><br>
+                <div class="inset">
+                    <div class="outset" id
                 </div>
             </div>
     
@@ -81,6 +86,18 @@
                var element = document.body;
                element.classList.toggle("dkm");
             }
+            function openLink(url, newTab = true) {
+            if (typeof url !== "string" || url.trim() === "") {
+                alert("Invalid URL");
+                return;
+            }
+            // Open in new tab or same tab based on parameter
+            if (newTab) {
+                window.open(url, "_blank"); // New tab
+            } else {
+                window.location.href = url; // Same tab
+            }
+        }
         </script>
     </body>
 </html>
