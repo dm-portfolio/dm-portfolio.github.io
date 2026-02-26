@@ -36,4 +36,4 @@ positioned foreground tab bar at the top of the foreground tab
 #### v0.2.0 -
 changed foreground design.
 #### v0.3.0 -
-finished up basic info and tabs.
+added basic info and tabs.
