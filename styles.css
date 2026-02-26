@@ -136,14 +136,15 @@ body {
 #twLink {
   font-family: "Courier New", Courier, monospace;
   font-size: 13px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+  letter-spacing: 0;
+  word-spacing: 0;
   color: #2E7C8F;
   font-weight: 700;
   text-decoration: underline;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
+  cursor: pointer;
 }
 #twFont {
   font-family: "Courier New", Courier, monospace;
