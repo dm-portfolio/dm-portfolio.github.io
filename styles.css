@@ -12,6 +12,7 @@ body {
   bottom: 0;
   left: 0;
   background: #015871;
+  z-index: 2;
 }
 
 .wave {
@@ -50,6 +51,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   overflow: hidden;
+  z-index: 2;
 }
 .header-bar {
   display: flex;
@@ -93,17 +95,21 @@ body {
 .tab-content.active {
   display: block;
 }
-.notice {
+.notice-outset {
   display: flex;
   height: 30px;
   align-items: center;
   justify-content: center;
   background-color: #f1f1f1;
-  border: 2px outset;
+  border: 4px outset;
 }
-.box {
-  outline: 7px outset #f1f1f1;
-  border-radius: 3px;
+.inset {
+  display: flex;
+  border: 4px inset;
+}
+.outset {
+  outline: 4px outset #f1f1f1;
+  border-radius: 1px;
 }
 #twFont {
   font-family: "Courier New", Courier, monospace;
