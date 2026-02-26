@@ -1,4 +1,4 @@
-# DM Portfolio ![](https://geps.dev/progress/30?barColor=99CCFF)
+# DM Portfolio ![](https://geps.dev/progress/45?barColor=99CCFF)
 My personal website portfolio!
 
 All code is made by me, a less-than-average programmer, probably with some help from google
@@ -14,26 +14,4 @@ All code is made by me, a less-than-average programmer, probably with some help 
 
 **2.25.26** **-** Website day 2. Found a CSS wave animation online, later might make a light-mode and dark-mode toggle that changes the color of the waves and everything else. Foreground tab actually looks good now, since I added the bar at the top. Changed the div up, now it looks like a real browser window. There was a LOT done today. Next step is finishing touches, music, and a light-mode/dark-mode toggle.
 
-## 📜 Versions
-#### v0.0.0 -
-base website made.
-#### v0.0.1 -
-added foreground div box.<br>
-added spin.gif to repository and website.
-#### v0.0.2 -
-added trumpet.mp3 to repository and website.
-#### v0.0.3 -
-added pirate.gif to repository and website.
-#### v0.0.4 - 
-added apirateisfree.mp3 to repository and website.
-#### v0.0.5 -
-centered foreground div.
-#### v0.1.0 -
-added wave effect.
-#### v0.1.2 -
-added foreground tab bar.<br>
-positioned foreground tab bar at the top of the foreground tab
-#### v0.2.0 -
-changed foreground design.
-#### v0.3.0 -
-added basic info and tabs.
+**2.26.26** **-** Website day 3! So close to finishing, but I don't have a work email set up yet, so the contact tab doesn't have any contact info yet.
