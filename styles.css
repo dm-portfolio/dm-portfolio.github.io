@@ -101,6 +101,10 @@ body {
   background-color: #f1f1f1;
   border: 2px outset;
 }
+.box {
+  outline: 7px outset #f1f1f1;
+  border-radius: 3px;
+}
 #twFont {
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
