@@ -118,7 +118,7 @@ body {
   border: 4px outset;
 }
 .inset {
-  display: inline-flex;
+  display: flex;
   max-width: 50%;
   width: fit-content;
   border: 4px inset;
