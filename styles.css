@@ -119,8 +119,8 @@ body {
 }
 .inset {
   display: flex;
-  max-width: 50%;
-  width: fit-content;
+  align-items: center;
+  justify-content: center;
   border: 4px inset;
   margin: 5px;
 }
