@@ -45,7 +45,7 @@ body {
 }
 .browser-window {
   background-color: #ffffff;
-  width: 49%;
+  width: 600px;
   height: 85%;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
@@ -118,14 +118,17 @@ body {
   border: 4px outset;
 }
 .inset {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  max-width: 50%;
+  width: fit-content;
   border: 4px inset;
+  margin: 5px;
 }
 .outset {
   outline: 4px outset #f1f1f1;
   border-radius: 1px;
-  margin: 10px;
+  width: fit-content;
+  margin: 7px;
 }
 #twLink {
   font-family: "Courier New", Courier, monospace;
