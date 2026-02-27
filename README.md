@@ -14,4 +14,6 @@ All code is made by me, a less-than-average programmer, probably with some help 
 
 **2.25.26** **-** Website day 2. Found a CSS wave animation online, later might make a light-mode and dark-mode toggle that changes the color of the waves and everything else. Foreground tab actually looks good now, since I added the bar at the top. Changed the div up, now it looks like a real browser window. There was a LOT done today. Next step is finishing touches, music, and a light-mode/dark-mode toggle.
 
-**2.26.26** **-** Website day 3! So close to finishing, but I don't have a work email set up yet, so the contact tab doesn't have any contact info yet.
+**2.26.26** **-** Website day 3! So close to finishing, but I don't have a work email set up yet, so the contact tab doesn't have any contact info yet. Worked on the "Work" tab that lists my experience and education, and made css classes called "notice-outset", "outset", and "inset" for future use.
+
+**2.27.26** **-** Day 4. Love my website so far, but I need to figure out mobile support.
