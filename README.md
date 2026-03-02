@@ -1,4 +1,4 @@
-# DM Portfolio ![](https://geps.dev/progress/80?barColor=8f8f8f)
+# DM Portfolio ![](https://geps.dev/progress/80?barColor=#b0fc38)
 My personal website portfolio!
 
 All code is made by me, a less-than-average programmer, probably with some help from google
