@@ -43,11 +43,6 @@
             </div>
     
                 
-            <div id="fun" class="tab-content">
-                <img class="outset" id="widget1" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" style="cursor: pointer;">
-            </div>
-    
-                
             <div id="work" class="tab-content">
                 <div class="notice-outset">
                     <txt id="twSmall">For work offers and inquiries, please contact me through my&ensp;</txt><txt id="twLink" onclick="openLink('https://en.wikipedia.org/wiki/Lorem_ipsum')">work email</txt><txt id="twSmall">.</txt>
@@ -88,11 +83,21 @@
             <div id="contact" class="tab-content">
                 <txt id="twFont">I don't currently have a work email set up, but when I do it will be on this page.</txt>
             </div>
+    
+                
+            <div id="fun" class="tab-content" style="display: flex;">
+                <txt id="twHeader">Sound Widgets:</txt>
+                <div class="inset">
+                    <img class="outset" id="widget1" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" style="cursor: pointer;">
+                    <img class="outset" id="widget2" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" style="cursor: pointer;">
+                </div>
+                
         </div>
     </div>
 </div>
 
         <audio id="audio1" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/audio/trumpet.mp3?raw=true"></audio>
+        <audio id="audio2" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/audio/apirateisfree.mp3?raw=true"></audio>
         
             <script>
             function openTab(evt, tabName) {
@@ -120,10 +125,15 @@
             // Select the audio element and clickable area
             const audio1 = document.getElementById('audio1');
             const widget1 = document.getElementById('widget1');
+            const audio2 = document.getElementById('audio2');
+            const widget2 = document.getElementById('widget2');
             
             // Add click event listener to play audio
             widget1.addEventListener('click', () => {
             audio1.play();
+            });
+            widget2.addEventListener('click', () => {
+            audio2.play();
             });
             </script>
         <div class="ocean"> 
