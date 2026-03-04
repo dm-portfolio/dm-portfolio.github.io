@@ -90,41 +90,7 @@
 
             
             <div id="projects" class="tab-content">
-
-                <input id="input" placeholder="Type..." />
-                <button onclick="send()">Send</button>
-                <div id="chat"></div>
-                
-                <script>
-                import os
-
-                API_KEY = os.getenv("API_KEY")
-                async function send() {
-                  const input = document.getElementById("input");
-                  const chat = document.getElementById("chat");
-                  const message = input.value;
-                
-                  chat.innerHTML += `<div><b>You:</b> ${message}</div>`;
-                  input.value = "";
-                
-                  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-                    method: "POST",
-                    headers: {
-                      "Authorization": `Bearer ${API_KEY}`,
-                      "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                      model: "llama-3.3-70b-versatile",
-                      messages: [{ role: "user", content: message }]
-                    })
-                  });
-                
-                  const data = await res.json();
-                  const reply = data.choices[0].message.content;
-                
-                  chat.innerHTML += `<div><b>Bot:</b> ${reply}</div>`;
-                }
-                </script>
+                <txt id+"twFont">Work in progress</txt>
             </div>
 
             
