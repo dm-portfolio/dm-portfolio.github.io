@@ -5,6 +5,10 @@
         <link rel="icon" href="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/Icon.png?raw=true">
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .user { color: blue; }
+            .bot { color: green; }
+        </style>
     </head>
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="browser-window">
@@ -21,6 +25,7 @@
                 <button class="tab-button" onclick="openTab(event, 'work')">Work</button>
                 <button class="tab-button" onclick="openTab(event, 'tools')">Tools</button>
                 <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
+                <button class="tab-button" onlcick="openTab(event, 'projects')">Projects</button>
                 <button class="tab-button" onclick="openTab(event, 'fun')">Fun</button>
             </div>
             
@@ -85,8 +90,40 @@
             </div>
 
             
+            <div id="projects" class="tab-content">
+                <div class="inset">
+                    <input type="text" id="message" placeholder="Type a message..." />
+                    <button onclick="sendMessage()">Send</button>
+                    
+                    <script>
+                    async function sendMessage() {
+                        const input = document.getElementById("message");
+                        const chat = document.getElementById("chat");
+                        const message = input.value;
+                    
+                        if (!message) return;
+                    
+                        chat.innerHTML += `<div class="user"><b>You:</b> ${message}</div>`;
+                    
+                        const response = await fetch("http://localhost:3000/chat", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ message })
+                        });
+                    
+                        const data = await response.json();
+                    
+                        chat.innerHTML += `<div class="bot"><b>Bot:</b> ${data.reply}</div>`;
+                        input.value = "";
+                        chat.scrollTop = chat.scrollHeight;
+                    }
+                    </script>
+                </div>
+            </div>
+
+            
             <div id="fun" class="tab-content">
-                <txt id="twHeader">Sound Changes:</txt>
+                <txt id="twHeader">Sound Widgets:</txt>
                 <div class="inset">
                     <img class="outset" id="widget1" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" style="cursor: pointer;">
                     <img class="outset" id="widget2" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" style="cursor: pointer;" width="42" height="42">
